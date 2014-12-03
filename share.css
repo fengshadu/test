@@ -1,0 +1,152 @@
+*
+{
+	padding: 0;
+	margin: 0;	
+}
+html 
+{
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+{
+	border: 0 none;
+    margin: 0;
+    padding: 0;
+    /*vertical-align: baseline;*/
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.header
+{
+	height: 35px;
+	width: 100%;
+	background: #2F3537;
+	padding-top: 10px;
+}
+.header .headerL
+{
+	float: left;
+	margin-left: 10px;
+}
+.header .headerR
+{
+	float: right;
+}
+.header img
+{
+	vertical-align: middle;
+	width: 20%;
+}
+.header span a
+{
+	color: #575C5D;
+}
+.content p
+{
+	padding: 15px;
+	line-height: 20px;
+}
+.content .contentMidl
+{
+	height: 300px;
+	width: 60%;
+	margin: 0 auto;
+	background: url("images/contentBg.gif") no-repeat;
+	background-size: 100%;
+}
+.content .contentMidl img
+{
+	width: 20%;
+	margin-top: 55%;
+	margin-left: 60%;
+}
+.content p
+{
+	text-align: center;
+}
+
+
+.content .contentFt
+{	
+	width: 90%;
+	margin: 0 auto;
+	height: 100px;
+	border-bottom: 2px solid #CCC;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.content .contentFtL
+{
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+}
+.content .contentFtL img
+{
+	width: 70px;
+	margin-left: 30%;
+	text-align: center;
+}
+.content .contentFtL span
+{
+	color: #00B5D9;
+	font-size: 18px;
+}
+.content .contentFtL p
+{
+	padding: 0;
+}
+.content .contentFtR
+{
+	width: 50%;
+	float: right;
+	padding-top: 52px;
+}
+
+.content .contentFtR p
+{
+	padding: 0;
+	text-align: right;
+}
+.content .contentFtR a
+{
+	color: #00B5D9;
+}
+.content .contentFtR span
+{
+	color: #00B5D9;
+}
+footer
+{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+footer img
+{
+	width: 100%;
+}
+footer p
+{
+	text-align: right;
+	padding-left: 20px;
+	line-height: 20px;
+}
+.footerP
+{
+	color: #00B5D9;
+	font-size: 16px;
+}
+@media (min-width: 400px){
+	.content .contentMidl 
+	{
+		height: 400px;
+	}
+}
+
